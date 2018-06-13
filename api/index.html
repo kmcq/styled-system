@@ -1,0 +1,349 @@
+<!DOCTYPE html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Compositor x0"><title>styled-system</title><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@jxnblk"><meta name="twitter:image" content="https://jxnblk.com/styled-system/logo.png"><meta name="twitter:title" content="styled-system"><meta name="twitter:description" content="Design system utilities for styled-components and other css-in-js libraries"><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif}</style><style data-styled-components="dUiVDW jSTEll bvAJFn gRrvFh iHZvIS eBuDJu fcVjNc gkGPTt dTSnFq OCCnD dRhQIl iXwioW jfBhUW dfbKYT kduXMj">/* sc-component-id: sc-bxivhb */
+.dUiVDW{font-family:system-ui,sans-serif;} .dUiVDW *{box-sizing:border-box;}
+/* sc-component-id: sc-bwzfXH */
+.jSTEll{box-sizing:border-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;} @media screen and (min-width:32em){.jSTEll{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}}.bvAJFn{box-sizing:border-box;margin-bottom:32px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+/* sc-component-id: sc-bdVaJa */
+.gRrvFh{box-sizing:border-box;width:100%;}.iHZvIS{box-sizing:border-box;}.eBuDJu{box-sizing:border-box;margin-left:4px;margin-right:4px;}.fcVjNc{box-sizing:border-box;width:100%;padding-left:8px;padding-right:8px;padding-top:32px;padding-bottom:32px;color:#fff;background-color:#000;-webkit-flex:none;-ms-flex:none;flex:none;} @media screen and (min-width:32em){.fcVjNc{width:256px;}} @media screen and (min-width:32em){.fcVjNc{padding-left:16px;padding-right:16px;}} @media screen and (min-width:32em){.fcVjNc{-webkit-order:-1;-ms-flex-order:-1;order:-1;}}
+/* sc-component-id: sc-jAaTju */
+.gkGPTt{margin-left:auto;margin-right:auto;padding-left:16px;padding-right:16px;padding-top:32px;padding-bottom:32px;max-width:768px;}
+/* sc-component-id: sc-htoDjs */
+.dTSnFq{color:#0067ee;}
+/* sc-component-id: sc-kGXeez */
+.OCCnD{font-size:14px;font-family:"SF Mono","Roboto Mono",Menlo,monospace;margin:0px;margin-top:16px;margin-bottom:16px;padding-left:16px;padding-right:16px;overflow:auto;color:#0067ee;}
+/* sc-component-id: sc-kpOJdX */
+.dRhQIl{font-size:14px;font-family:"SF Mono","Roboto Mono",Menlo,monospace;}
+/* sc-component-id: sc-jqCOkK */
+.iXwioW{opacity:0.75;-webkit-mix-blend-mode:multiply;-webkit-animation-duration:8s;animation-duration:8s;-webkit-animation-timing-fuction:ease-in-out;animation-timing-fuction:ease-in-out;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-name:kYWaxF;animation-name:kYWaxF;}
+/* sc-component-id: sc-uJMKN */
+.jfBhUW{opacity:0.75;-webkit-mix-blend-mode:multiply;-webkit-animation-duration:8s;animation-duration:8s;-webkit-animation-timing-fuction:ease-in-out;animation-timing-fuction:ease-in-out;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;fill:#0f0;-webkit-animation-delay:.5s;animation-delay:.5s;-webkit-animation-name:PfKVo;animation-name:PfKVo;}
+/* sc-component-id: sc-bbmXgH */
+.dfbKYT{opacity:0.75;-webkit-mix-blend-mode:multiply;-webkit-animation-duration:8s;animation-duration:8s;-webkit-animation-timing-fuction:ease-in-out;animation-timing-fuction:ease-in-out;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;fill:#00f;-webkit-animation-delay:1s;animation-delay:1s;-webkit-animation-name:zPMCy;animation-name:zPMCy;}
+/* sc-component-id: sc-dnqmqq */
+.kduXMj{color:inherit;background-color:transparent;font-size:14px;font-weight:700;padding:8px;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-align-self:stretch;-ms-flex-item-align:stretch;align-self:stretch;-webkit-text-decoration:none;text-decoration:none;white-space:nowrap;cursor:pointer;} .kduXMj:disabled{opacity:0.25;}</style></head><div id="root"><div class="sc-bxivhb dUiVDW"><div class="sc-bwzfXH jSTEll" style="min-height:100vh"><div class="sc-bdVaJa gRrvFh" style="min-width:0"><div class="sc-jAaTju gkGPTt sc-bdVaJa iHZvIS"><div class="sc-bwzfXH bvAJFn"><a class="sc-htoDjs dTSnFq" href="/styled-system/">Home</a><div class="sc-bdVaJa eBuDJu">/</div>Api</div><div><h2 id="api"><a href="#api" style="color:inherit;text-decoration:none">API</a></h2><ul><li><p><a class="sc-htoDjs dTSnFq" href="#core">Core</a></p><ul><li><a class="sc-htoDjs dTSnFq" href="#space-responsive">space</a> (margins &amp; paddings)</li><li><a class="sc-htoDjs dTSnFq" href="#width-responsive">width</a></li><li><a class="sc-htoDjs dTSnFq" href="#fontsize-responsive">fontSize</a></li><li><a class="sc-htoDjs dTSnFq" href="#color-responsive">color</a> (and background-color)</li></ul></li><li><a class="sc-htoDjs dTSnFq" href="#typography">Typography</a></li><li><a class="sc-htoDjs dTSnFq" href="#layout">Layout</a></li><li><a class="sc-htoDjs dTSnFq" href="#flexbox">Flexbox</a></li><li><a class="sc-htoDjs dTSnFq" href="#borders">Borders</a></li><li><a class="sc-htoDjs dTSnFq" href="#position">Position</a></li><li><a class="sc-htoDjs dTSnFq" href="#misc">Misc</a></li><li><a class="sc-htoDjs dTSnFq" href="#pseudo-classes">Pseudo-classes</a></li><li><a class="sc-htoDjs dTSnFq" href="#complex-styles">Complex styles</a></li><li><p><a class="sc-htoDjs dTSnFq" href="#utilities">Utilities</a></p><ul><li><a class="sc-htoDjs dTSnFq" href="#themeget">themeGet</a></li><li><a class="sc-htoDjs dTSnFq" href="#proptypes">propTypes</a></li></ul></li><li><p><a class="sc-htoDjs dTSnFq" href="#customize">Customize</a></p><ul><li><a class="sc-htoDjs dTSnFq" href="#style">style</a></li><li><a class="sc-htoDjs dTSnFq" href="#responsivestyle">responsiveStyle</a></li><li><a class="sc-htoDjs dTSnFq" href="#pseudostyle">pseudoStyle</a></li><li><a class="sc-htoDjs dTSnFq" href="#complexstyle">complexStyle</a></li></ul></li><li><a class="sc-htoDjs dTSnFq" href="#default-theme">Default Theme</a></li></ul><h2 id="core"><a href="#core" style="color:inherit;text-decoration:none">Core</a></h2><h3 id="space-responsive"><a href="#space-responsive" style="color:inherit;text-decoration:none">space (responsive)</a></h3><pre class="sc-kGXeez OCCnD" lang="js">import { space } from &#x27;styled-system&#x27;
+</pre><p>The space utility converts shorthand margin and padding props to margin and padding CSS declarations.</p><ul><li>Numbers from 0-4 (or the length of <code class="sc-kpOJdX dRhQIl">theme.space</code>) are converted to values on the <a class="sc-htoDjs dTSnFq" href="#spacing-scale">spacing scale</a>.</li><li>Negative values can be used for negative margins.</li><li>Numbers greater than the length of the <code class="sc-kpOJdX dRhQIl">theme.space</code> array are converted to raw pixel values.</li><li>String values are passed as raw CSS values.</li><li>And array values are converted into <a class="sc-htoDjs dTSnFq" href="responsive-styles/">responsive values</a>.</li></ul><p>Margin and padding props follow a shorthand syntax for specifying direction.</p><ul><li><code class="sc-kpOJdX dRhQIl">m</code>: margin</li><li><code class="sc-kpOJdX dRhQIl">mt</code>: margin-top</li><li><code class="sc-kpOJdX dRhQIl">mr</code>: margin-right</li><li><code class="sc-kpOJdX dRhQIl">mb</code>: margin-bottom</li><li><code class="sc-kpOJdX dRhQIl">ml</code>: margin-left</li><li><code class="sc-kpOJdX dRhQIl">mx</code>: margin-left and margin-right</li><li><code class="sc-kpOJdX dRhQIl">my</code>: margin-top and margin-bottom</li><li><code class="sc-kpOJdX dRhQIl">p</code>: padding</li><li><code class="sc-kpOJdX dRhQIl">pt</code>: padding-top</li><li><code class="sc-kpOJdX dRhQIl">pr</code>: padding-right</li><li><code class="sc-kpOJdX dRhQIl">pb</code>: padding-bottom</li><li><code class="sc-kpOJdX dRhQIl">pl</code>: padding-left</li><li><code class="sc-kpOJdX dRhQIl">px</code>: padding-left and padding-right</li><li><code class="sc-kpOJdX dRhQIl">py</code>: padding-top and padding-bottom</li></ul><pre class="sc-kGXeez OCCnD" lang="jsx">// examples (margin prop)
+
+// sets margin value of `theme.space[2]`
+&lt;Box m={2} /&gt;
+
+// sets margin value of `-1 * theme.space[2]`
+&lt;Box m={-2} /&gt;
+
+// sets a margin value of `16px` since it&#x27;s greater than `theme.space.length`
+&lt;Box m={16} /&gt;
+
+// sets margin `&#x27;auto&#x27;`
+&lt;Box m=&#x27;auto&#x27; /&gt;
+
+// sets margin `8px` on all viewports and `16px` from the smallest breakpoint and up
+&lt;Box m={[ 1, 2 ]} /&gt;
+</pre><h3 id="width-responsive"><a href="#width-responsive" style="color:inherit;text-decoration:none">width (responsive)</a></h3><pre class="sc-kGXeez OCCnD" lang="js">import { width } from &#x27;styled-system&#x27;
+</pre><p>The width utility parses a component&#x27;s <code class="sc-kpOJdX dRhQIl">width</code> prop and converts it into a CSS width declaration.</p><ul><li>Numbers from 0-1 are converted to percentage widths.</li><li>Numbers greater than 1 are converted to pixel values.</li><li>String values are passed as raw CSS values.</li><li>And arrays are converted to <a class="sc-htoDjs dTSnFq" href="responsive-styles/">responsive width styles</a>.</li></ul><pre class="sc-kGXeez OCCnD" lang="jsx">// examples
+
+// width `50%`
+&lt;Box width={1/2} /&gt;
+
+// width `256px`
+&lt;Box width={256} /&gt;
+
+// width `&#x27;2em&#x27;`
+&lt;Box width=&#x27;2em&#x27; /&gt;
+
+// width `100%` on all viewports and `50%` from the smallest breakpoint and up
+&lt;Box width={[ 1, 1/2 ]} /&gt;
+</pre><h3 id="fontsize-responsive"><a href="#fontsize-responsive" style="color:inherit;text-decoration:none">fontSize (responsive)</a></h3><pre class="sc-kGXeez OCCnD" lang="js">import { fontSize } from &#x27;styled-system&#x27;
+</pre><p>The fontSize utility parses a component&#x27;s <code class="sc-kpOJdX dRhQIl">fontSize</code> prop and converts it into a CSS font-size declaration.</p><ul><li>Numbers from 0-8 (or <code class="sc-kpOJdX dRhQIl">theme.fontSizes.length</code>) are converted to values on the <a class="sc-htoDjs dTSnFq" href="#default-theme">font size scale</a>.</li><li>Numbers greater than <code class="sc-kpOJdX dRhQIl">theme.fontSizes.length</code> are converted to raw pixel values.</li><li>String values are passed as raw CSS values.</li><li>And array values are converted into <a class="sc-htoDjs dTSnFq" href="responsive-styles/">responsive values</a>.</li></ul><pre class="sc-kGXeez OCCnD" lang="jsx">// examples
+
+// font-size of `theme.fontSizes[3]`
+&lt;Text fontSize={3} /&gt;
+
+// font-size `32px`
+&lt;Text fontSize={32} /&gt;
+
+// font-size `&#x27;2em&#x27;`
+&lt;Text fontSize=&#x27;2em&#x27; /&gt;
+
+// font-size `10px` on all viewports and `12px` from the smallest breakpoint and up
+&lt;Text fontSize={[ 10, 12 ]} /&gt;
+</pre><h3 id="color-responsive"><a href="#color-responsive" style="color:inherit;text-decoration:none">color (responsive)</a></h3><pre class="sc-kGXeez OCCnD" lang="js">import { color } from &#x27;styled-system&#x27;
+</pre><p>The color utility parses a component&#x27;s <code class="sc-kpOJdX dRhQIl">color</code> and <code class="sc-kpOJdX dRhQIl">bg</code> props and converts them into CSS declarations. By default the raw value of the prop is returned. Color palettes can be configured with the <a class="sc-htoDjs dTSnFq" href="configuration/">ThemeProvider</a> to use keys as prop values, with support for dot notation. Array values are converted into <a class="sc-htoDjs dTSnFq" href="responsive-styles/">responsive values</a>.</p><pre class="sc-kGXeez OCCnD" lang="jsx">// examples
+
+// picks the value defined in `theme.colors[&#x27;blue&#x27;]`
+&lt;Box color=&#x27;blue&#x27; /&gt;
+
+// picks up a nested color value using dot notation
+// `theme.colors[&#x27;gray&#x27;][0]`
+&lt;Box color=&#x27;gray.0&#x27; /&gt;
+
+// raw CSS color value
+&lt;Box color=&#x27;#f00&#x27; /&gt;
+</pre><hr><h2 id="typography"><a href="#typography" style="color:inherit;text-decoration:none">Typography</a></h2><pre class="sc-kGXeez OCCnD" lang="jsx">// fontFamily
+&lt;Text fontFamily=&#x27;mono&#x27; /&gt;
+
+// textAlign (responsive)
+&lt;Text textAlign=&#x27;center&#x27; /&gt;
+&lt;Text textAlign={[ &#x27;center&#x27;, &#x27;left&#x27; ]} /&gt;
+
+// lineHeight
+&lt;Text lineHeight=&#x27;1.25&#x27; /&gt;
+
+// fontWeight
+&lt;Text fontWeight=&#x27;bold&#x27; /&gt;
+
+// letterSpacing
+&lt;Text letterSpacing=&#x27;0.1em&#x27; /&gt;
+</pre><h2 id="layout"><a href="#layout" style="color:inherit;text-decoration:none">Layout</a></h2><pre class="sc-kGXeez OCCnD" lang="jsx">// display (responsive)
+&lt;Box display=&#x27;inline-block&#x27; /&gt;
+&lt;Box display={[ &#x27;block&#x27;, &#x27;inline-block&#x27; ]} /&gt;
+
+// maxWidth (responsive)
+&lt;Box maxWidth={1024} /&gt;
+&lt;Box maxWidth={[ 768, null, null, 1024 ]} /&gt;
+
+// minWidth (responsive)
+&lt;Box minWidth={128} /&gt;
+&lt;Box minWidth={[ 96, 128 ]} /&gt;
+
+// height (responsive)
+&lt;Box height={64} /&gt;
+&lt;Box height={[ 48, 64 ]} /&gt;
+
+// maxHeight (responsive)
+&lt;Box maxHeight={512} /&gt;
+&lt;Box maxHeight={[ 384, 512 ]} /&gt;
+
+// minHeight (responsive)
+&lt;Box minHeight={512} /&gt;
+&lt;Box minHeight={[ 384, 512 ]} /&gt;
+
+// size (responsive, width &amp; height)
+&lt;Box size={32} /&gt;
+&lt;Box size={[ 32, 48 ]} /&gt;
+
+// ratio (height: 0 &amp; paddingBottom)
+&lt;Box ratio={3/4} /&gt;
+</pre><h2 id="flexbox"><a href="#flexbox" style="color:inherit;text-decoration:none">Flexbox</a></h2><pre class="sc-kGXeez OCCnD" lang="jsx">// alignItems (responsive)
+&lt;Flex alignItems=&#x27;center&#x27; /&gt;
+
+// alignContent (responsive)
+&lt;Flex alignContent=&#x27;center&#x27; /&gt;
+
+// justifyContent (responsive)
+&lt;Flex justifyContent=&#x27;center&#x27; /&gt;
+
+// flexWrap (responsive)
+&lt;Flex flexWrap=&#x27;wrap&#x27; /&gt;
+
+// flexBasis (responsive)
+&lt;Flex flexBasis=&#x27;auto&#x27; /&gt;
+
+// flexDirection (responsive)
+&lt;Flex flexDirection=&#x27;column&#x27; /&gt;
+
+// flex (responsive)
+&lt;Box flex=&#x27;1 1 auto&#x27; /&gt;
+
+// justifySelf (responsive)
+&lt;Box justifySelf=&#x27;center&#x27; /&gt;
+
+// alignSelf (responsive)
+&lt;Box alignSelf=&#x27;center&#x27; /&gt;
+</pre><h2 id="borders"><a href="#borders" style="color:inherit;text-decoration:none">Borders</a></h2><p>The <code class="sc-kpOJdX dRhQIl">borders</code> utility combines <code class="sc-kpOJdX dRhQIl">border</code>, <code class="sc-kpOJdX dRhQIl">borderTop</code>, <code class="sc-kpOJdX dRhQIl">borderRight</code>, <code class="sc-kpOJdX dRhQIl">borderBottom</code> and <code class="sc-kpOJdX dRhQIl">borderLeft</code>, all of which are responsive</p><pre class="sc-kGXeez OCCnD" lang="jsx">&lt;Box border=&#x27;1px solid&#x27; /&gt;
+&lt;Box borderTop=&#x27;1px solid&#x27; /&gt;
+&lt;Box borderRight=&#x27;1px solid&#x27; /&gt;
+&lt;Box borderBottom=&#x27;1px solid&#x27; /&gt;
+&lt;Box borderLeft=&#x27;1px solid&#x27; /&gt;
+</pre><pre class="sc-kGXeez OCCnD" lang="jsx">// borderColor
+&lt;Box borderColor=&#x27;blue&#x27; /&gt;
+
+// borderRadius
+&lt;Box borderRadius={4} /&gt;
+</pre><h2 id="position"><a href="#position" style="color:inherit;text-decoration:none">Position</a></h2><pre class="sc-kGXeez OCCnD" lang="jsx">// position (responsive)
+&lt;Box position=&#x27;absolute&#x27; /&gt;
+
+// zIndex
+&lt;Absolute zIndex={2} /&gt;
+
+// top, right, bottom, left (responsive)
+&lt;Fixed
+  top=&#x27;0&#x27;
+  right=&#x27;0&#x27;
+  bottom=&#x27;0&#x27;
+  left=&#x27;0&#x27;
+/&gt;
+</pre><h2 id="misc"><a href="#misc" style="color:inherit;text-decoration:none">Misc</a></h2><pre class="sc-kGXeez OCCnD" lang="jsx">// boxShadow
+&lt;Box boxShadow={1} /&gt;
+
+// backgroundImage, backgroundSize, backgroundPosition, backgroundRepeat
+&lt;Box
+  backgroundImage=&#x27;kitten.png&#x27;
+  backgroundSize=&#x27;cover&#x27;
+  backgroundPosition=&#x27;center&#x27;
+  backgroundRepeat=&#x27;repeat-x&#x27;
+/&gt;
+</pre><h2 id="pseudo-classes"><a href="#pseudo-classes" style="color:inherit;text-decoration:none">Pseudo-classes</a></h2><p>Pseudo-class utility props accept style objects that can pick up certain values, such as color, from a theme.</p><h3 id="hover"><a href="#hover" style="color:inherit;text-decoration:none">hover</a></h3><pre class="sc-kGXeez OCCnD" lang="jsx">&lt;Box
+  hover={{
+    textDecoration: &#x27;underline&#x27;,
+    color: &#x27;blue&#x27;
+  }}
+/&gt;
+</pre><h3 id="focus"><a href="#focus" style="color:inherit;text-decoration:none">focus</a></h3><pre class="sc-kGXeez OCCnD" lang="jsx">&lt;Box focus={{ color: &#x27;blue&#x27; }} /&gt;
+</pre><h3 id="active"><a href="#active" style="color:inherit;text-decoration:none">active</a></h3><pre class="sc-kGXeez OCCnD" lang="jsx">&lt;Box active={{ color: &#x27;navy&#x27; }} /&gt;
+</pre><h3 id="disabled"><a href="#disabled" style="color:inherit;text-decoration:none">disabled</a></h3><pre class="sc-kGXeez OCCnD" lang="jsx">&lt;Box disabledStyle={{ color: &#x27;gray&#x27; }} /&gt;
+</pre><h2 id="complex-styles"><a href="#complex-styles" style="color:inherit;text-decoration:none">Complex Styles</a></h2><p>The complex style utilities allow you to define reusable style objects in your theme for things like text styles and color combinations.</p><pre class="sc-kGXeez OCCnD" lang="js">// example theme
+const theme = {
+  textStyles: {
+    caps: {
+      textTransform: &#x27;uppercase&#x27;,
+      letterSpacing: &#x27;0.2em&#x27;
+    }
+  },
+  colorStyles: {
+    warning: {
+      color: &#x27;black&#x27;,
+      backgroundColor: &#x27;orange&#x27;
+    },
+    error: {
+      color: &#x27;white&#x27;,
+      backgroundColor: &#x27;red&#x27;
+    },
+  },
+  buttons: {
+    primary: {
+      color: &#x27;white&#x27;,
+      backgroundColor: &#x27;blue&#x27;,
+      &#x27;&amp;:hover&#x27;: {
+        backgroundColor: &#x27;black&#x27;,
+      }
+    }
+  }
+}
+</pre><pre class="sc-kGXeez OCCnD" lang="jsx">// textStyle
+&lt;Text textStyle=&#x27;caps&#x27; /&gt;
+
+// colorStyle
+&lt;Box colors=&#x27;warning&#x27; /&gt;
+
+// buttonStyle
+&lt;Button buttonStyle=&#x27;primary&#x27; /&gt;
+</pre><p>Styles can be applied with the utility&#x27;s prop or by using boolean shorthand props for the key used in the theme. Be sure to use key values that will be unique for a particular component, and avoid using HTML attributes as keys.</p><pre class="sc-kGXeez OCCnD" lang="jsx">&lt;Text caps /&gt;
+&lt;Box warning /&gt;
+&lt;Button primary /&gt;
+</pre><hr><h2 id="utilities"><a href="#utilities" style="color:inherit;text-decoration:none">Utilities</a></h2><h3 id="themeget"><a href="#themeget" style="color:inherit;text-decoration:none">themeGet</a></h3><p>The themeGet function is an existential getter function that can be used in any style declaration to get a value from your theme, with support for fallback values. This helps prevent errors from throwing when a theme value is missing, which can be helpful when unit testing styled-components.</p><pre class="sc-kGXeez OCCnD" lang="js">themeGet(objectPath, fallbackValue)
+</pre><pre class="sc-kGXeez OCCnD" lang="js">import styled from &#x27;styled-components&#x27;
+import { themeGet } from &#x27;styled-system&#x27;
+
+const Box = styled.div`
+  border-radius: ${themeGet(&#x27;radii.small&#x27;, &#x27;4px&#x27;)};
+`
+</pre><h3 id="proptypes"><a href="#proptypes" style="color:inherit;text-decoration:none">propTypes</a></h3><p>Prop type definitions are available for each style function to add to your component&#x27;s propTypes object. Each value in <code class="sc-kpOJdX dRhQIl">propTypes</code> is an object which should be assigned (or spread) to the component&#x27;s <code class="sc-kpOJdX dRhQIl">propTypes</code>.</p><pre class="sc-kGXeez OCCnD" lang="jsx">import styled from &#x27;styled-components&#x27;
+import { width } from &#x27;styled-system&#x27;
+
+const Box = styled.div`
+  ${width}
+`
+
+Box.propTypes = {
+  ...width.propTypes
+}
+</pre><hr><h2 id="customize"><a href="#customize" style="color:inherit;text-decoration:none">Customize</a></h2><p>To create custom utilities for other CSS properties, use the following low-level utility functions.</p><h3 id="style"><a href="#style" style="color:inherit;text-decoration:none">style</a></h3><p>Create a non-responsive style utility.</p><pre class="sc-kGXeez OCCnD" lang="js">import styled from &#x27;styled-components&#x27;
+import { style } from &#x27;styled-system&#x27;
+
+const textShadow = style({
+  // React prop name
+  prop: &#x27;shadow&#x27;,
+  // The corresponding CSS property (defaults to prop argument)
+  cssProperty: &#x27;textShadow&#x27;,
+  // key for theme values
+  key: &#x27;shadows&#x27;,
+  // convert number values to pixels
+  numberToPx: false,
+  // accessor function for transforming the value
+  getter: n =&gt; n,
+  // shorthand alias React prop name
+  alias: &#x27;sh&#x27;
+})
+
+const ShadowText = styled(Text)`
+  ${textShadow}
+`
+
+// with a `theme.shadows` array
+const App = props =&gt; (
+  &lt;ShadowText shadow={0}&gt;
+    Shady
+  &lt;/ShadowText&gt;
+)
+</pre><h3 id="responsivestyle"><a href="#responsivestyle" style="color:inherit;text-decoration:none">responsiveStyle</a></h3><p>Create a responsive style utility that accepts array-based responsive prop values.</p><pre class="sc-kGXeez OCCnD" lang="js">import styled from &#x27;styled-components&#x27;
+import { responsiveStyle } from &#x27;styled-system&#x27;
+
+const borderRadius = responsiveStyle({
+  // React prop name
+  prop: &#x27;borderRadius&#x27;,
+  // corresponding CSS property (defaults to prop argument)
+  cssProperty: &#x27;borderRadius&#x27;,
+  // key for theme values
+  key: &#x27;radii&#x27;,
+  // convert number values to pixels
+  numberToPx: true,
+  // accessor function for transforming the value
+  getter: n =&gt; n,
+  // shorthand alias React prop name
+  alias: &#x27;radius&#x27;
+})
+
+const RoundedBox = styled.div`
+  ${borderRadius}
+`
+
+const App = props =&gt; (
+  &lt;RoundedBox borderRadius={[ 0, 2 ]} /&gt;
+)
+</pre><h3 id="pseudostyle"><a href="#pseudostyle" style="color:inherit;text-decoration:none">pseudoStyle</a></h3><p>Create a pseudo-class style utility that accepts a style object prop value.</p><pre class="sc-kGXeez OCCnD" lang="js">import styled from &#x27;styled-components&#x27;
+import { pseudoStyle } from &#x27;styled-system&#x27;
+
+const checkedStyle = pseudoStyle({
+  prop: &#x27;checkedStyle&#x27;,
+  pseudoclass: &#x27;checked&#x27;,
+  keys: {
+    // keys for theme-based values
+    color: &#x27;colors&#x27;,
+    backgroundColor: &#x27;colors&#x27;,
+  }
+})
+
+const FancyCheckbox = styled.input`
+  /* ...base styles */
+  ${checkedStyle}
+`
+FancyCheckbox.defaultProps = {
+  type: &#x27;checkbox&#x27;
+}
+
+// &lt;FancyCheckbox checkedStyle={{ backgroundColor: &#x27;blue&#x27; }} /&gt;
+</pre><h3 id="complexstyle"><a href="#complexstyle" style="color:inherit;text-decoration:none">complexStyle</a></h3><p>Create a complex style utility that maps props to style objects in a theme.</p><pre class="sc-kGXeez OCCnD" lang="js">import styled from &#x27;styled-components&#x27;
+import { complexStyle } from &#x27;styled-system&#x27;
+
+const cardStyles = complexStyle({
+  prop: &#x27;cardStyle&#x27;,
+  key: &#x27;cards&#x27;
+})
+
+const Card = styled.div`
+  ${cardStyle}
+`
+Card.defaultProps = {
+  cardStyle: &#x27;normal&#x27;
+}
+// &lt;Card cardStyle=&#x27;large&#x27; /&gt;
+</pre><hr><h2 id="default-theme"><a href="#default-theme" style="color:inherit;text-decoration:none">Default Theme</a></h2><p>If no theme is provided, styled-system uses smart defaults for breakpoints, the typographic scale, and the spacing scale.</p><pre class="sc-kGXeez OCCnD" lang="js">// Breakpoints
+const breakpoints = [ &#x27;40em&#x27;, &#x27;52em&#x27;, &#x27;64em&#x27; ]
+// @media screen and (min-width: 40em)
+// @media screen and (min-width: 52em)
+// @media screen and (min-width: 64em)
+
+// Typographic Scale (numbers are converted to px values)
+const fontSizes = [ 12, 14, 16, 20, 24, 32, 48, 64, 72 ]
+
+// Spacing Scale (used for margin and padding)
+const space = [ 0, 4, 8, 16, 32, 64, 128, 256, 512 ]
+</pre></div></div></div><div class="sc-bdVaJa fcVjNc"><nav><svg xmlns="http://www.w3.org/2000/svg" viewBox="-12 -12 24 24" width="48" height="48" style="-webkit-mix-blend-mode:screen;mix-blend-mode:screen"><path class="sc-jqCOkK iXwioW" d="M -9.526 -5.5 L 0 -11 L 9.526 -5.5 L 9.526 5.5 z"></path><path class="sc-uJMKN jfBhUW" d="M 9.526 -5.5 L 9.526 5.5 L 0 11 L -9.526 5.5 z"></path><path class="sc-bbmXgH dfbKYT" d="M 0 11 L -9.526 5.5 L -9.526 -5.5 L 0 -11 z"></path></svg><div class="sc-bdVaJa iHZvIS"><a class="sc-dnqmqq kduXMj" href="/styled-system/">Styled System</a></div><div class="sc-bdVaJa iHZvIS"><a class="sc-dnqmqq kduXMj" href="/styled-system/getting-started">Getting Started</a></div><div class="sc-bdVaJa iHZvIS"><a class="sc-dnqmqq kduXMj" href="/styled-system/responsive-styles">Responsive Styles</a></div><div class="sc-bdVaJa iHZvIS"><a class="sc-dnqmqq kduXMj" href="/styled-system/how-it-works">How It Works</a></div><div class="sc-bdVaJa iHZvIS"><a class="sc-dnqmqq kduXMj" href="/styled-system/api">Api</a></div><div class="sc-bdVaJa iHZvIS"><a class="sc-dnqmqq kduXMj" href="/styled-system/table">Table</a></div><div class="sc-bdVaJa iHZvIS"><a class="sc-dnqmqq kduXMj" href="/styled-system/custom-props">Custom Props</a></div></nav></div></div></div></div><script src="/styled-system/bundle.js"></script>
